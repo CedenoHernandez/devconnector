@@ -95,6 +95,19 @@ img {
 
     .profile-top {
         grid-area: top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        img {
+            width: 250px;
+        }
+        .icons a {
+            color: #fff;
+            margin: 0 0.3rem;
+        }
     }
     .profile-about {
         grid-area: about;
